@@ -2,13 +2,13 @@ package com.company;
 
 public class Urs extends Mamifere{
 
-    public Urs(String nume, int varsta, int greutate, String culoareBlana) {
-        super(nume, varsta, greutate, 4, culoareBlana);
+    public Urs(String nume, int varsta, int greutate, int cusca, String culoareBlana) {
+        super(nume, varsta, greutate,4,  cusca, culoareBlana);
     }
 
     @Override
     public void mananca(String aliment) {
-        System.out.println("Ursul "  + this.getNume() + " mananca " + aliment);
+        System.out.println("Ursul "  + this.getNume() + " mananca " + aliment + ".");
     }
 
     @Override
