@@ -8,4 +8,12 @@ public abstract class Pasari extends Animal{
         this.culoarePene = culoarePene;
     }
 
+    @Override
+    public StringBuffer print() {
+        StringBuffer output = super.print();
+        output.append(" | culoare pene: " + culoarePene + "\n");
+
+        return output;
+    }
+
 }

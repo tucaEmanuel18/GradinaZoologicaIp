@@ -7,4 +7,12 @@ public abstract class Reptile extends Animal {
         super(nume, varsta, greutate, cusca, protectieExterioara);
         this.culoare = culoare;
     }
+
+    @Override
+    public StringBuffer print() {
+        StringBuffer output = super.print();
+        output.append(" | culoare blana: " + culoare + "\n");
+
+        return output;
+    }
 }
