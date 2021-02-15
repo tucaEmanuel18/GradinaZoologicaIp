@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    Animal  ursBilly = new Urs("Billy", 5, 90, "Brun");
+        ursBilly.misca();
+        ursBilly.mananca("mure");
+        ursBilly.sunet();
     }
 }
